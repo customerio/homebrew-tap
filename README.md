@@ -3,10 +3,10 @@
 ## Usage
 
 ```sh
-brew tap customerio/homebrew-tap
-brew tap-info customerio/homebrew-tap
+brew tap customerio/tap
+brew tap-info customerio/tap
 
-brew install customerio/homebrew-tap/libfdb
+brew install customerio/tap/libfdb
 ```
 
 ## When a formula changes here (i.e. commits/merges)
