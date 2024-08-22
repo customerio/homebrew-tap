@@ -11,7 +11,5 @@ class Libfdb < Formula
       bin.install "contents/FoundationDB-clients.pkg/Payload/usr/local/bin/fdbcli"
       include.install Dir["contents/FoundationDB-clients.pkg/Payload/usr/local/include/foundationdb"]
       lib.install "contents/FoundationDB-clients.pkg/Payload/usr/local/lib/libfdb_c.dylib" => shared_library("libfdb_c")
-
-      bin.install_symlink
     end
 end
